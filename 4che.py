@@ -1,0 +1,17 @@
+a=input("Первое слово: ")
+b=input("Второе слово: ")
+c=input("Третье слово: ")
+print(a.upper()+" "+b.upper()+" "+c.upper())
+print(a.lower()+" "+b.lower()+" "+c.lower())
+print(a.capitalize()+" "+b.capitalize()+" "+c.capitalize())
+aa=input("Кол-во первого: ")
+bb=input("Кол-во второго: ")
+cc=input("Кол-во третьего: ")
+a=a.capitalize()
+b=b.capitalize()
+c=c.capitalize()
+q=("""1. {0} {3} шт.
+2. {1} {4} шт.
+3. {2} {5} шт.""").format(a,b,c,aa,bb,cc)
+print(q)
+input()
